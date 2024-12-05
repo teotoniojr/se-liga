@@ -12,7 +12,7 @@
     --preto: #000000;
 }
 
-header{
+header, footer{
     background-color: var(--verde04);
     padding: 1.5em;
     text-align: center;
@@ -27,7 +27,6 @@ header a{
 
 main{
     background-color: var(--verde03);
-    height: 100vh;
     text-align: center;
 }
 
@@ -41,5 +40,18 @@ h2{
     padding: 1em;
     font-size: 2em;
     color: var(--verde01);
+}
+
+p{
+    padding: 1em;
+}
+
+.autor{
+    font-weight: bold;
+}
+
+.github{
+    text-decoration: none;
+    color: var(--verde02);
 }
 
